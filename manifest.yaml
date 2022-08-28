@@ -1,0 +1,19 @@
+version: 1
+name: Marquee Text Card
+description: Side Scrolling Marquee text
+author: Squeak-Team <admin@squeak.com>
+squeakUsername: squeak
+placeholder_title: Marquee Card
+icon: icon.png
+preview: preview.png
+repository:
+  url: https://github.com/squeak-chat/marquee-text-card.git
+  version: main
+files:
+  html: source/index.html
+  css: source/styles.css
+  javascript: source/index.js
+parameters:
+  - name: scrolling_text
+    type: text
+    placeholder: Scrolling Text
