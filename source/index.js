@@ -227,7 +227,7 @@ var char = {
         Y : 9, Z : 9, ex: 5
     };
 
-    var txt = "SQUEAK ROX MY SOX!!";
+    var txt = "{{scrolling_text}}";
         txt = txt.toUpperCase();
     var pos = 0;
     var spc = 5;
