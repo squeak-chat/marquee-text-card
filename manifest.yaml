@@ -18,5 +18,5 @@ parameters:
     type: text
     placeholder: You look beautiful, so I love you
   - name: scrolling_speed
-    type: number
+    type: text
     placeholder: 40
