@@ -1,11 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Passion+One);
 
-html, body {
+body {
     background: #000000;
     font-family: 'Passion One', cursive;
 }
 
 marquee {
-    font-size: 100vh;
+    font-size: 95vh;
     color: #ffffff;
+    min-height: 300px;
 }

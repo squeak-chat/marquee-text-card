@@ -3,7 +3,7 @@ name: Marquee Text Card
 description: Side Scrolling Marquee text
 author: Squeak-Team <admin@squeak.com>
 squeakUsername: squeak
-placeholder_title: Marquee Card
+placeholder_title: Post Title
 icon: icon.png
 preview: preview.png
 repository:
@@ -19,4 +19,4 @@ parameters:
     placeholder: You look beautiful, so I love you
   - name: scrolling_speed
     type: text
-    placeholder: "40"
+    placeholder: "20"
