@@ -227,7 +227,7 @@ var char = {
         Y : 9, Z : 9, ex: 5
     };
 
-    var txt = "LOUIS SUCKS";
+    var txt = "SQUEAK ROX MY SOX!!";
         txt = txt.toUpperCase();
     var pos = 0;
     var spc = 5;
@@ -265,7 +265,7 @@ var char = {
     }
     var l = scroll[0].length;
 
-    document.querySelector(function() {
+    $(function() {
         s = '';
         t = [];
         for (y = 0; y < 19; y++) {
@@ -276,14 +276,14 @@ var char = {
             }
             s += '</div>';
         }
-        document.querySelector('body').insertAdjacentHTML("beforeend",s);
+        $('body').append(s);
         setInterval(function() {
             for (y = 0; y < 40; y++) {
               for (x = 0; x < 7; x++){
               if(pos+y >= l)
-              document.querySelector('div').eq(6+x).children().eq(y).attr('checked', false);
+              $('div').eq(6+x).children().eq(y).attr('checked', false);
               else
-              document.querySelector('div').eq(6+x).children().eq(y).attr('checked', scroll[x][pos+y]);
+              $('div').eq(6+x).children().eq(y).attr('checked', scroll[x][pos+y]);
               }
             }
           pos++;
@@ -291,7 +291,7 @@ var char = {
        }, 100);
     });
 
-    document.querySelector('#btn').click(function(){
-       document.querySelector('input').classList.toggle('show');
-       document.querySelector('div').classList.toggle('bg');
+    $('#btn').click(function(){
+       $('input').toggleClass('show');
+       $('div').toggleClass('bg');
     });
