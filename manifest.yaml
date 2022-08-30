@@ -12,7 +12,6 @@ repository:
 files:
   html: source/index.html
   css: source/styles.css
-  javascript: source/index.js
 parameters:
   - name: scrolling_text
     type: text
